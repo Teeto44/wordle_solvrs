@@ -1,0 +1,10 @@
+[package]
+name = "wordle_solvrs"
+version = "1.0.0"
+edition = "2024"
+
+[profile.release]
+opt-level = 3
+
+[dependencies]
+prompted = "0.2.8"
